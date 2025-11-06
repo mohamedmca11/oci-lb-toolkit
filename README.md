@@ -46,7 +46,7 @@ Example:
 user=ocid1.user.oc1..aaaaaaaaxxxxxxxx
 fingerprint=aa:bb:cc:dd:ee:ff:11:22
 tenancy=ocid1.tenancy.oc1..aaaaaaaayyyyyyyy
-region=eu-frankfurt-1
+region=your region
 key_file=/home/user/.oci/oci_api_key.pem
 ```
 
@@ -56,17 +56,7 @@ If your private key is encrypted, the scripts will securely prompt for its **pas
 
 ## 🚀 Scripts
 
-### 1️⃣ List Compartments
-`list_compartments_with_passphrase.py`
-
-Lists all compartments visible to your OCI API key (read-only).
-
-### 2️⃣ List Load Balancers by Compartment
-`list_load_balancers_by_compartment.py`
-
-Lists Classic Load Balancers in a selected compartment.
-
-### 3️⃣ Find Load Balancer by IP
+### 1️⃣ Find Load Balancer by IP
 `OCI-Fetch-LB-Full-Details-Using-IP.py`
 
 Finds which Load Balancer owns a specific IP, and shows listeners + backends.
